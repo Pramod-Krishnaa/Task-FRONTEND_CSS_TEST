@@ -11,7 +11,7 @@ body, h1, h2, h3, p, ul, li {
   .header {
     background-color: #ffcc00;
     color: #fff;
-     padding: 200px;
+     padding: 175px;
     
   }
   
@@ -28,7 +28,7 @@ body, h1, h2, h3, p, ul, li {
   .footer {
     background-color: #ff4d4d;
     color: #fff;
-    padding: 175px;
+    padding: 110px;
     position: relative;
    
   }
