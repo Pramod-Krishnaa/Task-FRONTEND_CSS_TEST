@@ -1,0 +1,46 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  
+  .header {
+    background-color: #ffcc00;
+    color: #fff;
+     padding: 200px;
+    
+  }
+  
+  .content{
+    
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 0;
+
+  }
+ 
+  .footer {
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 175px;
+    position: relative;
+   
+  }
+  .footer::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 75px solid #ffcc00;
+  }
+
+  
